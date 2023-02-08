@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gptchatbot"
+version = "0.1.0"
+description = ""
+authors = ["Павел <king-he@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+telebot = "^0.0.4"
+openai = "^0.26.5"
+pytelegrambotapi = "^4.10.0"
+python-dotenv = "^0.21.1"
+telegram = "^0.0.1"
+python-telegram-bot = "^20.0"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
